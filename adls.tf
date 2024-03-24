@@ -4,7 +4,7 @@ module "adls-gen2" {
   # insert required variables here
 
   instance_name       = "bitsplsadls01"
-  location            = "East US"
+  location            = "Southeast Asia"
   resource_group_name = var.resource_group_name
   replication_type    = "LRS"
 }
