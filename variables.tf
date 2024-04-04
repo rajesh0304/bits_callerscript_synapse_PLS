@@ -1,4 +1,4 @@
-
+# variables defined in terraform workspace
 variable "tenant_id" {
   description = "tenant id"
   type        = string
@@ -16,6 +16,17 @@ variable "deploy_client_id" {
 
 variable "deploy_client_secret" {
   description = "deploy client secret"
+  type        = string
+}
+
+# variables defined from input file
+variable "virtual_network_name" {
+  description = "Name of the virtual network"
+  type        = string
+}
+
+variable "subnet_name" {
+  description = "Name of the subnet"
   type        = string
 }
 
