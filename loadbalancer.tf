@@ -1,4 +1,4 @@
-module "loadbalancer" {
+/*module "loadbalancer" {
   source  = "app.terraform.io/bits_project_PLS/loadbalancer/azurerm"
   version = "1.0.0"
 
@@ -27,4 +27,4 @@ module "loadbalancer" {
     "22"                  = ["Tcp", "22", ""]
   }
 
-}
+}*/

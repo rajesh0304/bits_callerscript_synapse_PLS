@@ -3,7 +3,7 @@ terraform {
     organization = "bits_project_PLS"
 
     workspaces {
-      name = "bits_pls"
+      name = "ws001-dev-rg001"
     }
   }
   required_providers {
